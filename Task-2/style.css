@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f7fa;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 8%;
+    background:#0a0a0a;
+    position:fixed;
+    width:100%;
+    z-index:100;
+}
+
+.logo{
+    color:#00e5ff;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+.nav-links a:hover{
+    color:#00e5ff;
+}
+
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url(blue-programming-code-background-abstract-footage-090894338_prevstill.webp);
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:0 20px;
+}
+
+.content{
+    max-width:800px;
+}
+
+.content h1{
+    font-size:58px;
+    margin-bottom:20px;
+}
+
+.content p{
+    font-size:22px;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 32px;
+    background:#00e5ff;
+    color:#000;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.courses,.services,.contact{
+    padding:90px 8%;
+    text-align:center;
+}
+
+h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.box-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.box{
+    background:white;
+    padding:35px;
+    width:280px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.box:hover{
+    transform:translateY(-10px);
+}
+
+.box h3{
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.box p{
+    line-height:1.7;
+    color:#555;
+}
+
+.contact-box{
+    background:white;
+    max-width:600px;
+    margin:auto;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+}
+
+.contact-box p{
+    margin:15px 0;
+    font-size:18px;
+}
+
+footer{
+    background:#0a0a0a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+footer p{
+    margin:8px 0;
+}
